@@ -16,6 +16,6 @@ Now, you have 2 vectors (which itself contains vectors), and you need to find ou
 The last things is to compare 2 vectors for equality. This already exists in STL, and you could do it in a brute force manner(by comparing each pair of elements and checking for equality.
 
 # Code
-[Set Intersection](image-matching-set-intersection.cpp)
-[Parallel DFS](image-matching-parallel-dfs.cpp)
+* [Set Intersection](image-matching-set-intersection.cpp)
+* [Parallel DFS](image-matching-parallel-dfs.cpp)
 

@@ -34,6 +34,6 @@ Thats' it. The complexity is `O(n^2)` with no hidden factors.
 At this point, I must mention that there are lots of beautiful approaches for this question (for example, by using maps). You should go through the submissions to take a look at them.
 
 # Code
-[No Set Intersection](no-set-intersection-correct-tle.cpp)
-[Set Intersection](set-intersection-correct.cpp)
-[Parallel DFS](solution.cpp)
+* [No Set Intersection](no-set-intersection-correct-tle.cpp)
+* [Set Intersection](set-intersection-correct.cpp)
+* [Parallel DFS](solution.cpp)
