@@ -36,4 +36,4 @@ At this point, I must mention that there are lots of beautiful approaches for th
 # Code
 * [No Set Intersection](no-set-intersection-correct-tle.cpp)
 * [Set Intersection](set-intersection-correct.cpp)
-* [Parallel DFS](solution.cpp)
+* [Parallel DFS](parallel-dfs.cpp)
