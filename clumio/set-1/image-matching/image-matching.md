@@ -1,5 +1,12 @@
 [Editorial Page](../clumio-set-1.md)
 
+<!-- vim-markdown-toc GFM -->
+
+* [Intuition](#intuition)
+* [Code](#code)
+
+<!-- vim-markdown-toc -->
+
 ----
 
 # Intuition
