@@ -1,5 +1,13 @@
 [Editorial Page](../clumio-set-1.md)
 
+<!-- vim-markdown-toc GFM -->
+
+* [Intuition](#intuition)
+* [Optimizations](#optimizations)
+* [A Concise and Faster Solution](#a-concise-and-faster-solution)
+* [Code](#code)
+
+<!-- vim-markdown-toc -->
 ----
 
 Copy pasting from the Easy-Version.
