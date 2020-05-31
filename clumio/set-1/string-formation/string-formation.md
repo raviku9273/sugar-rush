@@ -1,3 +1,7 @@
+[Editorial Page](../clumio-set-1.md)
+
+----
+
 # Intuition
 Looks like we under-estimated the difficulty of this question. It had fewer submissions than **Image Matching**.
 
@@ -29,6 +33,8 @@ To perform the transistions, notice that as soon as you get a match, you should 
 If you've understood the concepts behind the Leetcode problem, you shouldn't have trouble implementing the above discussion. Hence, I won't discuss it further. 
 
 Make sure to handle modulo properly.
+
+----
 
 # Code
 [Code](string-formation.cpp)

@@ -1,3 +1,7 @@
+[Editorial Page](../clumio-set-1.md)
+
+----
+
 # Intuition
 As I mentioned in the e-mail, the question is conceptually easy, but would require a careful implementation to avoid bugs and code-duplication.
 
@@ -14,6 +18,8 @@ Mirror the process for the second matrix.
 Now, you have 2 vectors (which itself contains vectors), and you need to find out how many containers are same. But notice that containers might be arranged differently even though the connectd components are exactly the same (due to dfs order). To resolve this issue, we'd like to define an order relation between them. The workaround is very simple, sort each smaller container (for both matrix). Now that an ordering is defined, if the connected componets are indeed equal, their sorted containers must be equal.
 
 The last things is to compare 2 vectors for equality. This already exists in STL, and you could do it in a brute force manner(by comparing each pair of elements and checking for equality.
+
+----
 
 # Code
 * [Set Intersection](image-matching-set-intersection.cpp)

@@ -1,3 +1,7 @@
+[Editorial Page](../clumio-set-1.md)
+
+----
+
 # Intuition
 For people frustrated over the wording of the question, we'd like to point out that the problem statement is indeed correct, and you should've analyzed the explanation of the sample case thoroughly. (Indeed, they mention that the 2 nodes can share a common interest, even if they aren't directly connected). 
 
@@ -12,6 +16,8 @@ I'll just mention the problem statement precisely, after which it should be quit
 The algorithm should be simple. If we fix a colour, then the question simply asks you to check whether 2 vertices lie in the same connected component w.r.t to the colour. Since the constraints are low enough, we can fix each colour and run DFS each time to get connected component numbers.
 
 For each pair, find out the number of colours in which they have the same connected component numbers. This is the `max_val` we are looking for. Make a second pass and take the maximal pairwise product.
+
+----
 
 # Code
 [Multiple DFS](shared-interest.cpp)
