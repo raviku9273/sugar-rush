@@ -7,6 +7,8 @@
 
 <!-- vim-markdown-toc -->
 
+----
+
 # Intuition
 This is just a watered-down version of a classical question by the name **Sum of any Rectangle in a Matrix** in `O(1)`. Since there's already a lot of videos and blogs explaining the solution, I'll just give a brief walkthrough. 
 
@@ -22,6 +24,7 @@ Another relevant question is to handle sum of any subarray within an array. This
 
 As a bonus question, how do you handle point updates in a matrix designated for rectangle-sum queries? (Hint : Fenwick/Segment Tree).
 
+----
 
 # Code
 [Code](matrix-summation.cpp)
