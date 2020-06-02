@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Unignore all files with an extension
+!*.*
+
+# Unignore all directories
+!*/
+
+# Ignore pdf files
+*.pdf
+
+# Ignore all image files (Risky!)
+*.png
+*.jpg
+*.jpeg
