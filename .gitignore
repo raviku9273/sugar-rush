@@ -7,6 +7,9 @@
 # Unignore all directories
 !*/
 
+# Ignore files with .out extension
+*.out
+
 # Ignore pdf files
 *.pdf
 
@@ -14,3 +17,4 @@
 *.png
 *.jpg
 *.jpeg
+
