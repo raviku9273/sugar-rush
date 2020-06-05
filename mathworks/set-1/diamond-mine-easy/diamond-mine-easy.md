@@ -13,7 +13,11 @@
 
 <!-- vim-markdown-toc -->
 
+----
+
 If you are active in the **Leetcode community**, you might already know that people dread this question. (By the way, this question goes by the name **Cherry Pickup** on Leetcode). I, for one, found it quite challenging. However, the question becomes much simpler once you see the DP definition for the question. But, as anticlimatic as it may seem, this question is asked a lot during placement/interview tests. So, might as well quit procrastinating and solve it now.
+
+----
 
 # Switch to one-Based Indexing
 If we switch to one based indexing, our corner cases would become almost non-existent. **Why?** If we hit a row or column with index `0`, we know that it has gone out of the boundary.
@@ -27,6 +31,9 @@ for(int i = 0; i < n; i++)
 	for(int i = 0; j < n; j++)
 		new_grid[i + 1][j + 1] = old_grid[i][j]
 ```
+
+----
+
 # Greedy DP with Backtracking doesn't work
 I'm sure most of you might've got a **WA** on the first hidden case (i.e, Test-Case 3). The approach looks so convincing, yet it is wrong. 
 
@@ -65,6 +72,8 @@ So, you'll always end up leaving one cherry in the grid. However, if you play sm
 **Optimal Path**
 * **Trip 1** : Go right till column 4, go down till row 3, go right till column 7 and then go down till row 7.
 * **Trip 2** : Go left till  column 4, go up till row 4, go left till column 1 and then go up till row 1.
+
+----
 
 # Dynamic Programming to the Rescue
 It is clear that greedily picking the maximum cherries is not a feasible option. Consider any optimal path from `source` to `destination` and back again. If you notice carefully, it is the same as 2 persons collecting maximum cherries collectively, where one person starts from `(1, 1)` and goes to `(n, n)` , while the other person starts from `(n, n)` and goes to `(1,1)`. 
@@ -115,13 +124,19 @@ if( both cells are not the same)
 
 **The Base Case?** : When both the persons start at `(1, 1)`. There's no possible move left, and they can only collect the diamond in that cell. Hence, `dp[1][1][1][1] = mat[1][1]`.
 
+----
+
 # Do we really need to modify the grid?
 The answer is **No**. At first sight, it looks as if person `B` can visit a cell which has been already visited by person `A`. However, this is not true. And I'll leave it to you to prove the following result.
 
 **Theorem** : The paths of both the  persons are disjoint and intersect **if and only if** they meet at the intersecting cell (at the same time). In other words, person `B` cannot enter a cell which has already been visited by person `A` in the past (and vice-versa).
 
+----
+
 # Did we miss anything?
 Yes, it might happen that there is no path from source to destination. Hence, we need to ensure that we do not return a negative value (Either return `0` or return `-1` as per the requirements of the question).
+
+----
 
 # Pseudocode for 4D DP
 Just to re-iterate
@@ -135,8 +150,12 @@ Just to re-iterate
 8. If there is no path, return 0, else, return `dp[n][n][n][n]`
 
 
+----
+
 # Code
 * [4D DP](solution.cpp)
+
+----
 
 # Credits
 [The Real MVP](https://leetcode.com/problems/cherry-pickup/discuss/165218/Java-O(N3)-DP-solution-w-specific-explanation)
