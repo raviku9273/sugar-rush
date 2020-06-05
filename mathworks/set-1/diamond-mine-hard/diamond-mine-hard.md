@@ -134,7 +134,7 @@ Just to re-iterate
 3. Set the base case. (`dp[1][1][1][1] = new_grid[1][1]`)
 4. For each of the **n^4** starting positions, compute the maximum value of the next move.
 5. If no move is possible, skip it.
-6. Make the best move, and take the diamong in the current cells.
+6. Make the best move, and take the diamond in the current cells.
 7. Make sure not to double count the current cell (if they are identical)
 8. If there is no path, return 0, else, return `dp[n][n][n][n]`
 
@@ -171,7 +171,7 @@ So, now we don't need the fourth dimension in our DP table. We can recover it fr
 # Optimising the space complexity
 As indicated by the unusual time limit of the hard version, it should be clear that the intended solution is **O(n^3)** in time but **O(n^2)** in memory.
 
-If you reading this section, you wouldn't have much trouble optimizing the space complexity.
+If you're reading this section, you wouldn't have much trouble optimizing the space complexity.
 
 **Hint** : Do a **Knapsack Style** optimization. Notice that the answer for current states depend on two 2D matrices. So, you can just keep 2 matrices, say, `dp_current` and `dp_prev` and swap them as soon as the first loop ends. I'll leave the implementation details for you to figure out. You can go through the linked code if you wish.
 

@@ -132,7 +132,7 @@ Just to re-iterate
 3. Set the base case. (`dp[1][1][1][1] = new_grid[1][1]`)
 4. For each of the **n^4** starting positions, compute the maximum value of the next move.
 5. If no move is possible, skip it.
-6. Make the best move, and take the diamong in the current cells.
+6. Make the best move, and take the diamond in the current cells.
 7. Make sure not to double count the current cell (if they are identical)
 8. If there is no path, return 0, else, return `dp[n][n][n][n]`
 
