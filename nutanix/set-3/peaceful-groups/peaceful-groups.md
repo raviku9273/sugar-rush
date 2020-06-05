@@ -24,7 +24,7 @@ Now that we know what the segment is,  it makes sense to change all colours to t
 
 This is obvious, since we need to change the t-shirt color of all the persons in the current team simultaneously.
 
-**Observation 2** : At the end of the operations, there would contiguous segments of team members
+**Observation 2** : At the end of the operations, there would be contiguous segments of team members.
 
 This is due to the fact that we need to avoid fights between memebers who are sandwiched between other teams.
 
