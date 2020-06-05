@@ -25,11 +25,13 @@ This reduces our original problem to **Given a leader** `1000....`, **of length*
 
 I haven't found a proper proof of correctness for the following fact (but it's been verified by BFS).
 
-**Split the number into 2 halves, increment till the value of the reverse of first half, reverse and increment til the value of the last half**.
+**Split the number into 2 halves, increment till the value of the reverse of first half, reverse and increment till the value of the last half**.
 
 Also, you'd get a bonus of `1` in the last reversal (as the starting digit of the leader is already `1`).
 
 Of course, if in the process of increments you reach your number, you should terminate the process. 
+
+----
 
 # Tricky Test Cases
 1) **Numbers Ending with a Zero** : You can avoid this smartly by subtracting 1 from the number, recursing on the new number and adding 1 to the result.
@@ -40,10 +42,14 @@ Of course, if in the process of increments you reach your number, you should ter
 
 4) **Numbers with odd length** : It's a bit tricky, but observe that you don't need to include the middle element in reversal.
 
+----
+
 # Code
 * [My Solution](solution.cpp)
 * [Tester's Solution](stupid.cpp)
 * [Pattern Generated via BFS](pattern.txt)
+
+----
 
 # Remark
 * A lot of people might've come close to the solution, missing only the `tricky test cases` mentioned above. I intentionally created the first test to be all numbers in the range `[1, 1e5]`, so that you have a hard time understanding whether your general approach is incorrect or if you are missing an edge case. 
