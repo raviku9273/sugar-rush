@@ -1,4 +1,4 @@
-# [Editorial Page](../mathworks-set-1.md)
+[Editorial Page](../mathworks-set-1.md)
 
 <!-- vim-markdown-toc GFM -->
 

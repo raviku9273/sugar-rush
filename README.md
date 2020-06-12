@@ -11,3 +11,4 @@
 * [Contest 6 - BNY Mellon](bny-mellon/set-1/bny-mellon-set-1.md)
 * [Contest 7 - Nutanix](nutanix/set-3/nutanix-set-3.md)
 * [Contest 8 - MathWorks](mathworks/set-1/mathworks-set-1.md)
+* [Contest 9 - VMware](vm-ware/set-1/vm-ware-set-1.md)
