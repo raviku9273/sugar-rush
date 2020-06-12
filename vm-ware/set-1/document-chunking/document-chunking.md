@@ -45,7 +45,7 @@ Here's a fact that might be obvious to some and new to others.
 **Proof** : Use the fact that `\sum{2^0 + 2^1 .... 2^(n-1)} = 2^n - 1`. In other words, if you ignore the highest set bit, you cannot compensate even by taking all the lower bits.
 
 
-So, we just need to find the number of **set-bits** in `gap` and add it to our final result. Although you can do it in `O(log(n))` using a `while` loop, there exists a simple `O(1)` method via the STL function `__builtin_popcountll(num)`.
+So, we just need to find the number of **set-bits** in `gap` and add it to our final result. Although you can do it in `O(log(n))` using a `while` loop, there exists a simple ~~`O(1)`~~ `O(log (n))` (but a lot faster) method via the STL function `__builtin_popcountll(num)`.
 
 **Note** : Since the `gap` can be huge, use `__builtin_popcountll()` instead of `__builtin_popcount()` to avoid **WA**.
 
