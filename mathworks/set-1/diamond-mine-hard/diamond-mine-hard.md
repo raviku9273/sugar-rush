@@ -177,7 +177,7 @@ So, now we don't need the fourth dimension in our DP table. We can recover it fr
 3. Set the base case, `dp[1][1][1] = new_grid[1][1][1]`
 4. For each `n^3` states, do
 	* Recover the fourth dimension.
-	# * Check whether it's going out of bounds or not.
+	* Check whether it's going out of bounds or not.
 	* Check if either of the current cell is a thorn.
 	* Calculate the maximum profit from the next possible (4) moves.
 	* If you're stuck from everywhere, skip.
