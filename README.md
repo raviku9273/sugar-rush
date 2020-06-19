@@ -18,3 +18,10 @@
 * [Contest 10 - Fractal Analytics](fractal/set-2/fractal-set-2.md)
 * [Contest 11 - ZestMoney](zestmoney/set-1/zestmoney-set-1.md)
  
+# Contributors
+Thanks goes to these amazing people without whom this project might not have existed.
+
+<a href="https://github.com/lavish315"><img src="https://avatars.githubusercontent.com/lavish315?v=3" title="lavish315" width="80" height="80"></a>
+<a href="https://github.com/aqu106"><img src="https://avatars.githubusercontent.com/aqu106?v=3" title="aqu106" width="80" height="80"></a>
+
+
