@@ -24,7 +24,7 @@ The only difference from the easy version is the fact that using `ceil` with `do
 # Debugging Tips
 * Although the question talks about rounding off to the nearest integer, but in reality they want you to take `ceil` of the value (as should be evident from both the sample cases).
 * Now that we know that we need to use `ceil`, you should avoid using it altogether. Instead, try to use integer multiplication and modulo under 100 to simulate `ceil`. (But if you insist, it can (probably) be done with high precision `ceil` by typecasting the result to `long double` before division).
-* The code for the second version might not work for the first version, as the maximal number of days is different for both of them and using a loose upper bound for the first question would result in TLE (due to large constraints on the number of trees).
+* ~~The code for the second version might not work for the first version, as the maximal number of days is different for both of them and using a loose upper bound for the first question would result in TLE (due to large constraints on the number of trees)~~. Apparently, it works.
 * Use 70 as maximal days in version-1 and 110 in version-2.
 * As was the case with **Cereal Segments**, **Arbitrary Shopping**, and so on, you might've realized that whenever you need to scan around `10^5` numbers, you need to use fast input-output or use `scanf-printf`.
 
