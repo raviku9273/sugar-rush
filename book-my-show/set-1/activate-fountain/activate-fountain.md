@@ -38,7 +38,7 @@ It's obvious that we need to activate a fountain that covers the first fountain 
 
 Now, suppose, you're driving a car, and you've paid 1$ for the first fountain to be activated.. How far can you drive without needing to pay again? Clearly, it is `max_right[1] + 1`. Let call this value as a blockage.
 
-It's obvious that you need to pay again when you reach the blockage. Once you reach the first blocakge, you need to activate any fountain whose left ends starts at the blockage or earlier. Now, the cost of activating each of the fountains is 1$, so which fountain would you prefer to activate? Clearly, the one that would place the next blockage as far as possible.
+It's obvious that you need to pay again when you reach the blockage. Once you reach the first blockage, you need to activate any fountain whose left ends starts at the blockage or earlier. Now, the cost of activating each of the fountains is 1$, so which fountain would you prefer to activate? Clearly, the one that would place the next blockage as far as possible.
 
 So, as we did in **Peaceful Groups**, you also need to store the max of `max_right` untill you reach the blockage.
 
@@ -49,7 +49,7 @@ To conclude, the algorithm is :
 	* Keep preparing the `next_blockage` as far as possible.
 	* You can do this by taking a running max of `max_right[ele]`.
 * Once you hit the `current_blockage`, activate the best fountain that you've encounterd.
-* Update `current_blocakge` and repeat.
+* Update `current_blockage` and repeat.
 
 **Note** : It's guaranteed that the next blockage would be strictly to the right of current blockage. Why?
 

@@ -46,8 +46,6 @@ void Graph :: fixed_weight_dfs(int source, vector<int> &collection, int w)
 }
 void Graph :: fixed_weight_dfs_wrapper(int w)
 {
-	/* map[num] is a vector which collects all cc_no with 'num' vertices */
-
 	vector<vector<int>> cc_info;
 
 	visited.assign(vertex, false);
