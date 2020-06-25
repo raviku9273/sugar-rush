@@ -1,3 +1,7 @@
+**Please do not fork this repo. Star it if you feel the need, but avoid creating unnecessary copies if you aren't planning to contribute**.
+
+If you want a personal copy, you can [clone the repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
 # Invitation Link
 * [Invitation Link](invitation-link/invitation-link.md)
 
