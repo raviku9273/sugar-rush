@@ -26,7 +26,7 @@ How to find out the first element smaller than the current element and present o
 
 > If element `curr` pops the element `top` from the stack, then `top` is the first element smaller than `curr` to the right.
 
-So, we calculate the left and right boundary of an element as soon as it popped (and not pushed) onto the stack.
+So, we calculate the left and right boundary of an element as soon as it is popped (and not pushed) onto the stack.
 
 Whenever an element is popped, what is the largest rectangle that it could be a part of? Clearly, we can go as far as left-boundary and right-boundary (both exclusive). So, how many numbers are there in the open-open range `(a, b)`? Clearly, `(b - a - 1)`. Now that we have our height and width, we can easily compute area and keep a running max.
 

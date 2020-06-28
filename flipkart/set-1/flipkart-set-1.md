@@ -15,4 +15,5 @@ Here's the (rather cold) editorial for the last contest. It's very not helpful, 
 * [Fun with Palindromes](fun-with-palindromes/fun-with-palindromes.md)
 * [Almost Sorted Array](almost-sorted-array/almost-sorted-array.md)
 * [Maximal Rectangle](maximal-rectangle/maximal-rectangle.md)
+
 ----
