@@ -26,6 +26,7 @@ If you want a personal copy, you can [clone the repository](https://help.github.
 * [Contest 14 - Flipkart](flipkart/set-1/flipkart-set-1.md)
 * [Contest 15 - Dream11](dream11/set-1/dream11-set-1.md)
 * [Contest 16 - Sprinklr](sprinklr/set-2/sprinklr-set-2.md)
+* [Contest 17 - Nutanix](nutanix/set-4/nutanix-set-4.md)
 
 ----
 
