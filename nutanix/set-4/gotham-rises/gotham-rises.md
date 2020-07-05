@@ -6,7 +6,6 @@
 
 * [Intuition](#intuition)
 * [Code](#code)
-	* [* Tester's Solution](#-testers-solution)
 
 <!-- vim-markdown-toc -->
 
@@ -42,5 +41,6 @@ All that remains is to find out the total number of connected components. This c
 # Code
 * [My Solution](solution.cpp)
 * [Tester's Solution](stupid.cpp)
+
 ----
 
