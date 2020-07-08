@@ -8,7 +8,7 @@ void load_balancing(vector<pll> &arr_load, int n)
 {
 	sort(arr_load.begin(), arr_load.end());
 
-	vector<long long> a(n), tot_load(n);
+	vector<long long> tot_load(n);
 
 	set<int> free_servers;
 	set<pair<long long, int>> busy_servers;
@@ -25,10 +25,9 @@ void load_balancing(vector<pll> &arr_load, int n)
 
 		/* Free up all the servers */
 		auto itr = busy_servers.begin();
-
-		while(itr != busy_servers.end() and (*itr).first <= curr_time)
+		while(itr != busy_servers.end() and itr->first <= curr_time)
 		{
-			free_servers.insert((*itr).second);
+			free_servers.insert(itr->second);
 			itr = busy_servers.erase(itr);
 		}
 		
