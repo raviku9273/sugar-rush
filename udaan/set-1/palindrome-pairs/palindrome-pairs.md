@@ -45,6 +45,8 @@ Time complexity is `O( n log(n) )`.
 
 **P.S** : I have no idea whether this tutorial is too-short/too-long (which depends on how much you are already familiay with **bitmasking** and **xor**. So, feel free to ask on the Slack channel if you feel I missed out on important points. Or read about Bitmasking in general, from any CF/CP blog).
 
+[Official Editorial](https://bubblecup.org/Content/Media/Booklet2018.pdf) 
+
 ----
 
 # Code
