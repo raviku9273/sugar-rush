@@ -22,7 +22,7 @@ void sieve_spf()
 
 		for(int multiple = 2*num; multiple < max_n; multiple += num)
 		{
-			if(spf[multiple] == 1)
+			if(spf[multiple] == multiple)
 				spf[multiple] = num;
 		}
 	}
