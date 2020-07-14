@@ -15,3 +15,6 @@ You need to replace `password` with a 12 letter-word, which is formed by concate
 Once you access the link, you'll find 2 files by the name `invitation-link.md` and `invitation-link.html`. You need to download `invitation-link.html` and view it in your browser.
 
 **Tip** : You should try to give virtual-contests rather than offline-solving (as there are already tons of questions to practice on **LeetCode**).
+
+
+**PLEASE DO NOT POST THE PASSWORD ON A PUBLIC PLATFORM**
