@@ -12,9 +12,9 @@ You need to replace `password` with a 12 letter-word, which is formed by concate
 * **Word-2** : A 3 letter word which is open 24-hours during the examination period and is located right next to the first answer.
 * **Word-3** : A 2 letter word which is open 24-hours during the examination period.
 
-Once you access the link, you'll find 2 files by the name `invitation-link.md` and `invitation-link.html`. You need to download `invitation-link.html` and view it in your browser.
+Once you access the link, you'll find 2 files by the name `invitation-link.md` and `invitation-link.html`. You need to download `invitation-link.html` and view it in your browser. Alternatively, you can just look at `invitation-link.pdf` in Google Drive itself.
 
 **Tip** : You should try to give virtual-contests rather than offline-solving (as there are already tons of questions to practice on **LeetCode**).
 
 
-**PLEASE DO NOT POST THE PASSWORD ON A PUBLIC PLATFORM**
+**PLEASE DO NOT SHARE THE PASSWORD ON A PUBLIC PLATFORM**
