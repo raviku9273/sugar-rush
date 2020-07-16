@@ -29,6 +29,7 @@ If you want a personal copy, you can [clone the repository](https://help.github.
 * [Contest 17 - Nutanix](nutanix/set-4/nutanix-set-4.md)
 * [Contest 18 - Myntra](myntra/set-1/myntra-set-1.md)
 * [Contest 19 - Udaan](udaan/set-1/udaan-set-1.md) 
+* [Contest 20 - Visa](visa/set-1/visa-set-1.md)
 
 ----
 
